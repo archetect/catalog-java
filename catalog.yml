@@ -1,9 +1,7 @@
 ---
 entries:
-  - group:
-      description: Java
-      entries:
-        - catalog:
-            description: Spring Boot
-            source: git@github.com:archetect/catalog-spring-boot.git
+  - catalog:
+      description: Spring Boot
+      source: git@github.com:archetect/catalog-spring-boot.git
+
 
