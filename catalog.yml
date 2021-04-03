@@ -2,6 +2,6 @@
 entries:
   - catalog:
       description: Spring Boot
-      source: git@github.com:archetect/catalog-spring-boot.git
+      source: https://github.com/archetect/catalog-spring-boot.git
 
 
