@@ -1,8 +1,15 @@
 ---
 entries:
-  - catalog:
+  - group:
       description: Spring Boot
-      source: https://github.com/archetect/catalog-spring-boot.git
+      entries:
+        - archetype:
+            description: Spring Boot Modular Microservice (JPA)
+            source: https://github.com/archetect/archetype-java-spring-boot-service-jpa-modular.git
+        - archetype:
+            description: Spring Cloud - API Gateway
+            source: https://github.com/archetect/archetype-spring-boot-gateway.git
+
   - group:
       description: AWS
       entries:
