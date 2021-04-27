@@ -3,5 +3,9 @@ entries:
   - catalog:
       description: Spring Boot
       source: https://github.com/archetect/catalog-spring-boot.git
-
-
+  - group:
+      description: AWS
+      entries:
+        - archetype:
+            description: ElasticMQ (SQS) Server
+            source: https://github.com/archetect/archetype-java-elasticmq-server.git
